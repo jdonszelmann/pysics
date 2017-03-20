@@ -2,7 +2,7 @@
 
 
 
-rom distutils.core import setup
+from distutils.core import setup
 setup(
   name = 'pysics',
   packages = ['pysics'], # this must be the same as the name above
