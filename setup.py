@@ -6,7 +6,7 @@ from distutils.core import setup
 setup(
   name = 'pysics',
   packages = ['pysics'], # this must be the same as the name above
-  version = '1.0.1',
+  version = '1.0.2',
   description = 'A game engine with tools for making enemy AI (WIP)',
   author = 'jonay2000',
   author_email = 'jonabent@gmail.com',
@@ -14,4 +14,5 @@ setup(
   download_url = 'https://github.com/jonay2000/pysics/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['physics', 'python', 'game engine'], # arbitrary keywords
   classifiers = [],
+  install_requires=['pygame']
 )
