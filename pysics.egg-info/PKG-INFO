@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pysics
+Version: 1.0.0
+Summary: A game engine with tools for making enemy AI (WIP)
+Home-page: https://github.com/jonay2000/pysics
+Author: jonay2000
+Author-email: jonabnet@gmail.com
+License: MIT
+Description: # pysics
+        
+        this is version 1.0.0 of pysics - a now far from done game development packages for python. usage: nothing right now, but updates are coming
+        
+        
+Keywords: game engine
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: (game) Developers
+Classifier: Topic :: Software Development :: game engine
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

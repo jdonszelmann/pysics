@@ -1,0 +1,7 @@
+setup.py
+pysics.egg-info/PKG-INFO
+pysics.egg-info/SOURCES.txt
+pysics.egg-info/dependency_links.txt
+pysics.egg-info/entry_points.txt
+pysics.egg-info/requires.txt
+pysics.egg-info/top_level.txt
