@@ -36,17 +36,17 @@ class vector:
 	def magnitude(self):
 		return (self.x**2 + self.y**2)**0.5
 
-	# def setmag(self,val):
-	# 	def 
+	def setmag(self,val):
+		return self.__class__((self.x / len(self))*val, (self.y/len(self))*val)
 
 	def normalize(self):
-		return return self.__class__(self.x / len(self), self.y/len(self))
+		return self.__class__(self.x / len(self), self.y/len(self))
 
 	def copy(self):
 		return vector(self.x,self.y)
 
 	def __repr__(self):
-		return '[x: ' + str(self.x) + 'y: ' + str(self.y) + ']'
+		return '[x: ' + str(self.x) + '   y: ' + str(self.y) + ']'
 
 	def __str__(self):
-		return '[x: ' + str(self.x) + 'y: ' + str(self.y) + ']'
+		return '[x: ' + str(self.x) + '   y: ' + str(self.y) + ']'
