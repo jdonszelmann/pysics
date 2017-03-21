@@ -15,8 +15,8 @@ class vector:
 		return self.__class__(self.x * val, self.y * val)
 
 
-	def __mul__(self, val):
-		return self.__class__(self.x - other.x, self.y - other.y)self.x / val, self.y / val)
+	def __div__(self, val):
+		return self.__class__(self.x / val, self.y / val)
 
 	def __len__(self):
 		return (self.x**2 + self.y**2)**0.5

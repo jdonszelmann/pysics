@@ -6,7 +6,7 @@ from distutils.core import setup
 setup(
   name = 'pysics',
   packages = ['pysics'], # this must be the same as the name above
-  version = '1.0.3',
+  version = '1.0.4',
   description = 'A game engine with tools for making enemy AI (WIP)',
   author = 'jonay2000',
   author_email = 'jonabent@gmail.com',

@@ -8,7 +8,7 @@ except ImportError:
 
 class version:
 	def __repr__(self):
-		return 'pysics version alpha-0.0.1'
+		return 'pysics version alpha-1.0.4'
 
 class init:
 	def __init__(self, sound=False):
