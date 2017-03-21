@@ -34,10 +34,12 @@ class vector:
 		return (self.x**2 + self.y**2)**0.5
 
 	def setmag(self,val):
-		return self.__class__((self.x / self.magnitude)*val, (self.y/self.magnitude)*val)
+		self.x = (self.x / self.magnitude)*val
+		self.y = (self.y / self.magnitude)*val
 
 	def normalize(self):
-		return self.__class__(self.x / self.magnitude, self.y/self.magnitude)
+		self.x = self.x / self.magnitude
+		self.y = self.y / self.magnitude
 
 	def copy(self):
 		return vector(self.x,self.y)
