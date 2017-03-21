@@ -30,6 +30,7 @@ class vector:
 	def dot(self,other):
 		return (self.x*other.x)+(self.y*other.y)
 
+	@property
 	def magnitude(self):
 		return (self.x**2 + self.y**2)**0.5
 
