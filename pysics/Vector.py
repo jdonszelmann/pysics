@@ -8,15 +8,30 @@ class vector:
 	def __add__(self, other):
 		return self.__class__(self.x + other.x, self.y + other.y)
 
+	def __iadd__(self,other)
+		self.x += other.x
+		self.y += other.y
+
 	def __sub__(self, other):
 		return self.__class__(self.x - other.x, self.y - other.y)
+
+	def __iadd__(self,other)
+		self.x -= other.x
+		self.y -= other.y
 
 	def __mul__(self, val):
 		return self.__class__(self.x * val, self.y * val)
 
+	def __imul__(self,other)
+		self.x *= other.x
+		self.y *= other.y
 
 	def __div__(self, val):
 		return self.__class__(self.x / val, self.y / val)
+
+	def __idiv__(self,other)
+		self.x /= other.x
+		self.y /= other.y
 
 	def dist(self,other):
 		return ((self.x - other.x)**2 + (self.y - other.y)**2)**0.5
