@@ -16,7 +16,7 @@ class vector:
 
 
 	def __mul__(self, val):
-		return return self.__class__(self.x - other.x, self.y - other.y)self.x / val, self.y / val)
+		return self.__class__(self.x - other.x, self.y - other.y)self.x / val, self.y / val)
 
 	def __len__(self):
 		return (self.x**2 + self.y**2)**0.5
@@ -32,6 +32,9 @@ class vector:
 
 	def dot(self,other):
 		return (self.x*other.x)+(self.y*other.y)
+
+	def magnitude(self):
+		return (self.x**2 + self.y**2)**0.5
 
 	# def setmag(self,val):
 	# 	def 
