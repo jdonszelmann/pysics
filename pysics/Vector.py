@@ -18,9 +18,6 @@ class vector:
 	def __div__(self, val):
 		return self.__class__(self.x / val, self.y / val)
 
-	def __len__(self):
-		return (self.x**2 + self.y**2)**0.5
-
 	def dist(self,other):
 		return ((self.x - other.x)**2 + (self.y - other.y)**2)**0.5
 
@@ -37,10 +34,10 @@ class vector:
 		return (self.x**2 + self.y**2)**0.5
 
 	def setmag(self,val):
-		return self.__class__((self.x / len(self))*val, (self.y/len(self))*val)
+		return self.__class__((self.x / self.magnitude)*val, (self.y/self.magnitude)*val)
 
 	def normalize(self):
-		return self.__class__(self.x / len(self), self.y/len(self))
+		return self.__class__(self.x / self.magnitude, self.y/self.magnitude)
 
 	def copy(self):
 		return vector(self.x,self.y)
